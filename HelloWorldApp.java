@@ -2,8 +2,11 @@
  * The HelloWorldApp class implements an application that
  * simply prints "Hello World!" to standard output.
  */
+ import java.util.Date;
+
 class HelloWorldApp {
     public static void main(String[] args) {
-        System.out.println("Hello World!"+"test"); // Display the string.
+	Date date = new Date();
+	System.out.println("The Date Now is: "+date.toString()); // Display the string.
     }
 }
