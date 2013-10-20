@@ -7,6 +7,6 @@
 class HelloWorldApp {
     public static void main(String[] args) {
 	Date date = new Date();
-	System.out.println("The Date Now is: "+date.toString()); // Display the string.
+	System.out.println("The Date Today is: "+date.toString()); // Display the string.
     }
 }
